@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kelompok 1</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+			.left
+			{
+				background-image: url("trex.jpg");
+				padding: 300px 50px 50px 50px;
+				float: left;
+				width: 69.5%;
+				height: 500px;
+				color: white;
+				margin-right: 0.5%;
+			}
+			
+			.transparent_btn {
+				display: inline-block;
+				padding: 20px 24px;
+				color: #FFF;
+				border: 1px solid #FFF;
+				text-decoration: none;
+				font-size: 14px;
+				line-height: 120%;
+				background-color: rgba(255,255,255, 0);
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				-webkit-transition: background-color 300ms ease;
+				-moz-transition: background-color 300ms ease;
+				transition: background-color 300ms ease;
+				cursor: pointer;
+			}
+			/* Orange Button */
+			.transparent_btn.orange {
+				color: #ffc65d;
+				border-color: #ffc65d;
+			}
+				.transparent_btn.orange:hover {
+				background-color: rgba(255, 198, 93, 0.3);
+			}
+			.right
+			{
+				background-image: url("tiger.jpg");
+				background-position: 40% 50%;
+				padding: 10px 30px 30px 100px;
+				float: left;
+				width: 30%;
+				height: 299.09px;
+				color: white;
+			}
+			.right2
+			{
+				background-image: url("gajah.jpg");
+				background-position: center;
+				padding: 20px;
+				float: left;
+				width: 30%;
+				height: 200px;
+				color: white;
+				text-align: center;
+				margin-top: 0.1%;
+			}
+			.depan
+			{
+				background-image: url("background.jpg");
+				margin-top: 1%;
+				width: 100%;
+				height: 500px;
+				float: left;
+				padding: 200px 50px 50px 450px;
+			}
+			.zoo
+			{
+				background-image: url("trex2.jpg");
+				margin-top: 1%;
+				width: 100%;
+				height: 400px;
+				float: left;
+				padding: 200px 50px 50px 450px;
+				color: white;
+			}
+			.zoo2
+			{
+				margin-top: 1%;
+				margin-bottom: 1%;
+				width: 50%;
+				float: left;
+				padding-right: 10px;
+				height: 550px;
+			}
+
+			.zoo3
+			{
+				margin-top: 1%;
+				margin-bottom: 1%;
+				width: 50%;
+				float: left;
+				height: 550px;
+			}
+
+			.coverticket
+			{
+				background-image: url("ticket.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: 50% 30%;
+				margin-top: 1%;
+				width: 100%;
+				height: 400px;
+				float: left;
+				padding: 200px 50px 50px 450px;
+				color: white;
+			}
+
+			div.gallery 
+			{
+    			margin: 5px;
+    			border: 1px solid #ccc;
+    			float: left;
+    			width: 150px;
+			}
+
+			div.gallery:hover 
+			{
+			    border: 1px solid #777;
+			}
+
+			div.gallery img 
+			{
+			    width: 100%;
+			    height: auto;
+			    padding: 1%;
+			}
+
+			table
+			{
+				font-family: arial, sans-serif;
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			th
+			{
+				text-align: left;
+				padding: 8px;
+				background-color: 
+			}
+			td
+			{
+				padding: 10px;
+			}
+
+			.join
+			{
+				background-image: url("join.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				margin-top: 1%;
+				width: 100%;
+				height: 400px;
+				float: left;
+				padding: 200px 50px 50px 450px;
+				color: white;
+			}
+			.text
+			{
+				margin-top: 1%;
+				margin-bottom: 1%;
+				width: 100%;
+				float: left;
+				height: 100%;
+				padding: 50px;
+				font-size: 17px;
+			}
+			.join2
+			{
+				margin-top: 1%;
+				margin-bottom: 1%;
+				width: 100%;
+				float: right;
+				height: 500px;
+				font-size: 17px;
+				background-image: url("join2.jpg");
+				padding: 150px 50px 50px 750px;
+			}
+			.join3
+			{
+				background-image: url("login.jpg");
+				background-position: 50% 30%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				margin-top: 1%;
+				width: 100%;
+				height: 400px;
+				float: left;
+				padding: 200px 50px 50px 450px;
+				color: white;
+			}
+			.join4
+			{
+				background-image: url("regist.jpg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				margin-top: 1%;
+				width: 100%;
+				height: 400px;
+				float: left;
+				padding: 200px 50px 50px 450px;
+				color: white;
+			}
+			.contact
+			{
+				background-color: tomato;
+				float: left;
+				width: 100%;
+				padding: 10%
+			}
+
+			.container {
+  				
+			}
+
+	</style>
+</head>
+<body>
+
+	<div style="background-color: #f1f1f1; padding: 15px;">
+		<h1>Indo Zoo</h1>
+		<p>Selamat Datang Kebun Binatang Indonesia</p>
+	</div>
+
+	<div class="left">
+		<h1>ZOORASSIC PARK</h1>
+		<p style="font-size: 16px">wisatawan bisa berkeliling taman yang menyajikan belasan replika dinosaurus. "Ngerinya Jurassic Park Mini di Jakarta"</p>
+		<a href="#z1" class="transparent_btn orange">VIEW</a>
+	</div>
+
+	<div class="right">
+		<h1>PLAN YOUR VISIT</h1>
+			<ul style="list-style-type: circle;">
+				<li>Buy Your Tickets</li>
+				<li>Admission Costs</li>
+				<li>Getting Here & Opening Hours</li>
+				<li>Accebility</li>
+			</ul>
+		<a href="#z2" class="transparent_btn orange">VISIT PERTH ZOO</a>
+	</div>
+		
+	<div class="right2">
+		<h1>BECOME A MEMBER</h1>
+		<a href="#z3" class="transparent_btn orange">JOIN NOW</a>
+	</div>
+
+		<div class="depan">
+		<h1>OUR ANIMALS</h1>
+		<p>The animals and plants at Perth Zoo are from all corners of the globe. Find out more with these informative fact sheets and explore your world</p>
+	</div>
+
+	<div id="z1" class="zoo">
+		<h1>ZOORASSIC PARK</h1>
+		<p>They're back!</p>
+	</div>
+
+	<div class="zoo2">
+		<h4>Perth Zoo turns a whopping 120 this year and to celebrate the dinosaurs of Zoorassic Park are back!
+		</h4>
+
+		<p>Just as our living Zoo changes, these prehistoric creatures will be changing too. Use the discovery trail to record the creatures you spot on your travels. Be sure to visit regularly to see how these worlds evolve.</p>
+
+		<h1>Australian Megafauna - a Moving Beast</h1>
+
+		<p>We know we promised you a world-first with Australian prehistoric megafauna joining their roarsome dinosaur friends, but we’re sticklers for detail and obsessed with ensuring they’re as accurate as possible. So this means they just aren’t quite ready to get on the plane and join us.</p>
+
+		<p>But fear not, we have extra roaring, moving dinosaurs warming up the Zoo until the Aussies arrive later in the Zoorassic Park season. Sign-up to Zoo News for updates on when they'll be stomping in!</p>
+
+		<h4>Playleozone</h4>
+
+		<p>9:30am - 3:00pm</p>
+
+		<p>Little palaeontologists will have a dino-riffic time at our bespoke playleozone.</p>
+
+		<p>They can get hands on, uncovering dinosaur fossils hidden in our special digging pits, or get creative with cool dinosaur colouring-ins!</p>
+
+		<p>Our new friends will only be visiting for a limited time. </p>
+
+		<p>Saturday, 15 September, 2018 - 09:00 to Sunday, 20 January, 2019 - 17:00</p>
+	</div>
+
+	<div class="zoo3">
+		<h4>COST</h4>
+		<p>$0.00</p>
+
+		<h4>ENTRY FEE</h4>
+		<p>Not Include</p>
+	</div>
+
+	<div class="galery">
+	<h1 style="text-align: center; padding-bottom: 10px;">Gallery</h1>
+		<a target="blank" href="g1.jpg">
+			<img src="g1.jpg" width="400" height="300">
+		</a>
+		<a target="blank" href="g2.jpg">
+			<img src="g2.jpg" width="400" height="300">
+		</a>
+		<a target="blank" href="g3.jpg">
+			<img src="g3.jpg" width="400" height="300">
+		</a>
+		<a target="blank" href="g4.jpg">
+			<img src="g4.jpg" width="400" height="300">
+		</a>
+		<a target="blank" href="g5.jpg">
+			<img src="g5.jpg" width="400" height="300">
+		</a>
+	</div>
+
+	<div id="z2" class="coverticket">
+		<h1>TICKET</h1>
+		<p>Price</p>
+	</div>
+
+	<table>
+		<tr>
+			<th>TICKET</th>
+			<th>QTY</th>
+			<th>HARGA</th>
+		</tr>
+
+		<tr>
+			<td>Dewasa <br> 7 tahun ke atas</td>
+			<td><input type="number" name="dewasa"></td>
+			<td>Rp 25.000</td>
+		</tr>
+		<tr>
+			<td>Anak <br> Di bawah 7 tahun</td>
+			<td><input type="number" name="anak"></td>
+			<td>Rp 5.000</td>
+		</tr>
+		<tr>
+			<td>Balita <br> Anak-anak di bawah 4 tahun</td>
+			<td><input type="number" name="balita"></td>
+			<td>Rp 0</td>
+		</tr>
+		<tr>
+			<td>Paket Keluarga <br> 2 Orang dewasa dan 2 anak - anak</td>
+			<td><input type="number" name="dewasa"></td>
+			<td>Rp 75.000</td>
+		</tr>
+	</table>
+
+	<div class="join">
+		<h1>JOIN ZOO FRIENDS</h1>
+		<p>Silahkan Daftarkan</p>
+	</div>
+
+	<div class="text">
+		<h1>Zoo Friends membership</h1>
+		<p>As a Zoo Friends member you can keep visiting the Zoo as many times as you like for an entire year. That means you can see the dinosaurs of Zoorassic Park again and again and again.</p>
+	</div>
+
+	<div class="join2">
+		<h1>Member Benefits</h1>
+		<ul>
+			<li>Unlimited FREE entry to Perth Zoo for 12 months*</li>
+			<li>10% discount at Perth Zoo’s Café’s and Zoonique Shop</li>
+			<li>FREE entry to associated zoos around Australia</li>
+			<li>Priority entry through peak periods</li>
+			<li>Annual subscription to News Paws, Perth Zoo’s quarterly magazine</li>
+			<li>Access to exclusive members’-only events</li>
+			<li>10% off Perth Zoo life-sized Zoo Paw Prints and animal adoptions</li>	
+		</ul>
+		<p>*General entry only. Excludes ticketed events and special programs.</p>
+	</div>
+
+	<div class="zoo2">
+		<h1>Membership Prices</h1>
+		<p>Join online today or visit the Membership Counter located just inside the main entrance at Perth Zoo.<br><br> If you renew your membership before expiry you'll receive an extra 30 days membership for free. <br><br> South Perth Residents​ - Show proof of address & get 10% off your membership. <br><br> For more information please contact us 08 9474 0350 or zoofriends@perthzoo.wa.gov.au</p>
+		<a class="transparent_btn orange">JOIN TODAY</a>
+	</div>
+	<div class="zoo2">
+		<table>
+			<tr>
+				<td>Family Adult</td>
+				<td>$85 per person</td>
+			</tr>
+			<tr>
+				<td>Family Child (4-15 years)</td>
+				<td>$54 per person</td>
+			</tr>
+			<tr>
+				<td>Individual Adult</td>
+				<td>$96 per person</td>
+			</tr>
+			<tr>
+				<td>Individual Child (4-15 years)</td>
+				<td>$56 per person</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="z3" class="join3">
+		<h1>ZOO FRIENDS MEMBERSHIPS</h1>
+		<p>Welcome!<br> This page allows you to purchase, manage and renew your Zoo Friends membership through an online account.</p>
+	</div>
+
+	<div class="zoo2">
+		<h1>Already Have an Online Account?</h1>	
+		<form>
+			Username :
+			<input type="text" name="username">
+			<br><br>
+			Password :
+			<input type="text" name="password">
+			<br><br>
+		</form>
+		<a class="transparent_btn orange">LOG IN</a>
+		<p>Forgotten or lost your username or password?<br> Retrieve your username and reset your password.</p>
+	</div>
+
+	<div class="zoo2">
+		<h1>Don’t Have an Account?</h1>
+		<a class="transparent_btn orange">SIGN UP FOR A ACCOUNT</a>
+	</div>
+
+	<div class="join4">
+		<h1>ACCOUNT REGISTRATION FORM</h1>
+		<p>Please complete the account registration form below.<br> You need to elect a username and a password for future site access.</p>
+	</div>
+
+	<div class="zoo2">
+		<h1>User Details</h1>
+		<form action="/action_page.php" style="text-align: justify-all;">
+			Username :
+			<input type="text" name="username2">
+			<br><br>
+  			First name:
+  			<input type="text" name="firstname">
+  			<br><br>
+  			Email Adrress:
+ 			<input type="text" name="Email Address">
+  			<br><br>
+  			Password :
+  			<input type="text" name="Password">
+  			<br><br>
+  			Confirm Password :
+  			<input type="text" name="Confirm Password">
+  			<br><br>
+		</form> 
+
+		<h1>Residence Address</h1>
+		<form>
+			Country :
+			<input type="text" name="country"></input>
+			<br><br>
+			Adress Line :
+			<input type="text" name="adressline">
+			<br><br>
+			Line 2 :
+			<input type="text" name="country">
+			<br><br>
+			State :
+			<input type="text" name="state">
+			<br><br>
+			Post Code :
+			<input type="text" name="postcode">
+		</form>
+
+		<h1>Subscriptions</h1>
+		<p>You can subscribe to any of the following newsletters and news channels.</p>
+
+	</div>
+
+	<div class="container">
+		<h1>Personal Details</h1>
+		<form>
+			First Name :
+			<input type="text" name="firstname">
+			<br><br>
+			Last Name :
+			<input type="text" name="lastname">
+			<br><br>
+			Date Name :
+			<input type="text" name="datename">
+			<br><br>
+			Date of birth :
+			<input type="text" name="dateofbirth">
+			<br><br>
+			Phone :
+			<input type="text" name="phone">
+		</form>
+		<h1>Portal Address</h1>
+		<p>Same as residence address</p>
+		<a class="transparent_btn orange">Register</a>
+	</div>
+
+	<div class="contact">
+		<h1>CONTACT PERSON</h1>
+
+	</div>
+
+
+</body>
+</html>
